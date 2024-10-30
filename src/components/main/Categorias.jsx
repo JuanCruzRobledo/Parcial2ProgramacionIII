@@ -28,7 +28,9 @@ const Categorias = ({ setActiveCategory }) => {
         ].map(category => (
           <li
             key={category}
-            className={`cursor-pointer ${getClass(category)}`}
+            className={`cursor-pointer ${getClass(
+              category
+            )} px-2 py-1 rounded-md transition-colors duration-200`}
             onClick={() => handleClick(category)}
           >
             {category.charAt(0).toUpperCase() + category.slice(1)}
@@ -38,5 +40,4 @@ const Categorias = ({ setActiveCategory }) => {
     </div>
   )
 }
-
 export default Categorias

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = ({ changePopUp }) => {
+const Header = ({ changePopUp, addDefaultProducts }) => {
   return (
     <div className="w-screen h-24 bg-transparent flex justify-around items-center absolute top-0 text-[1rem] bg-slate-400">
       <div className="flex gap-2">
@@ -31,6 +31,15 @@ const Header = ({ changePopUp }) => {
             className="text-[0.8em] hover:bg-slate-400 py-[0.8em] px-[0.8em] rounded-md border-2 flex gap-2"
           >
             Agregar Producto
+            <img src="./src/assets/svg/add.svg" className="w-5" alt="Agregar" />
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={addDefaultProducts} // Función para agregar productos por defecto
+            className="text-[0.8em] hover:bg-slate-400 py-[0.8em] px-[0.8em] rounded-md border-2 flex gap-2"
+          >
+            Añadir Ejemplo
             <img src="./src/assets/svg/add.svg" className="w-5" alt="Agregar" />
           </button>
         </li>

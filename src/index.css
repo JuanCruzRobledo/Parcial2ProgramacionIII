@@ -10,4 +10,10 @@ html{
 }
 #root{
   width: 100%;
+  min-height: 90vh;
+}
+.listActive {
+  background-color: #4a5568; /* Cambia este color al que prefieras */
+  color: white; /* Color del texto para la categoría activa */
+  font-weight: bold; /* Hace el texto más destacado */
 }
