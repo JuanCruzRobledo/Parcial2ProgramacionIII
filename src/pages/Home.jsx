@@ -50,7 +50,7 @@ const Home = ({ updateTrigger }) => {
 
   return (
     <>
-      <div className="mt-24 h-[90vh] grid grid-cols-[30%_70%]">
+      <div className="text-[1rem]  lg:text-[1.3rem]  mt-24 h-[90vh] grid grid-cols-[30%_70%]">
         <Categorias setActiveCategory={setActiveCategory} />
         <div className="store bg-gray-500 p-16 flex flex-col gap-10 overflow-y-auto">
           {filteredProducts.length ? (
@@ -66,16 +66,18 @@ const Home = ({ updateTrigger }) => {
                   className="w-24 h-24 object-cover rounded-lg border border-gray-200"
                 />
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-gray-800">
+                  <h3 className="text-[1.2em] text-xl font-semibold text-gray-800">
                     {product.name}
                   </h3>
-                  <p className="text-gray-600 mt-2">
+                  <p className="text-[1em] text-gray-600 mt-2">
                     Precio:{' '}
                     <span className="font-bold text-green-500">
                       ${product.price}
                     </span>
                   </p>
-                  <p className="text-gray-500">Categoría: {product.category}</p>
+                  <p className="text-[1em] text-gray-500">
+                    Categoría: {product.category}
+                  </p>
                 </div>
               </div>
             ))

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = ({ changePopUp, addDefaultProducts }) => {
   return (
-    <div className="w-screen h-24 bg-transparent flex justify-around items-center absolute top-0 text-[1rem] bg-slate-400">
+    <div className="w-screen h-24 bg-transparent flex justify-around items-center absolute top-0 text-[0.7rem] md:text-[1rem] lg:text-[1.3rem] bg-slate-400">
       <div className="flex gap-2">
-        <div className="w-5 bg-black text-white flex justify-center items-center text-[1em]">
+        <div className="w-[2em] bg-black text-white flex justify-center items-center text-[1em]">
           JR
         </div>
         <h1 className="text-[1em]">Juan Cruz Robledo</h1>
