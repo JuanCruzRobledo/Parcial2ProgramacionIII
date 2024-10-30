@@ -31,7 +31,7 @@ const Header = ({ changePopUp, addDefaultProducts }) => {
             className="text-[0.8em] hover:bg-slate-400 py-[0.8em] px-[0.8em] rounded-md border-2 flex gap-2"
           >
             Agregar Producto
-            <img src="./src/assets/svg/add.svg" className="w-5" alt="Agregar" />
+            <img src="/src/assets/svg/add.svg" className="w-5" alt="Agregar" />
           </button>
         </li>
         <li>
@@ -40,7 +40,7 @@ const Header = ({ changePopUp, addDefaultProducts }) => {
             className="text-[0.8em] hover:bg-slate-400 py-[0.8em] px-[0.8em] rounded-md border-2 flex gap-2"
           >
             Añadir Ejemplo
-            <img src="./src/assets/svg/add.svg" className="w-5" alt="Agregar" />
+            <img src="/src/assets/svg/add.svg" className="w-5" alt="Agregar" />
           </button>
         </li>
       </ul>
