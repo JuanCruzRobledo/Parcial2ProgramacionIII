@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import filterIcon from '/src/assets/svg/filter.svg'
 
 const Categorias = ({ setActiveCategory }) => {
   const [activeCategory, setActive] = useState('todo') // 'todo' como categoría por defecto
@@ -15,7 +16,7 @@ const Categorias = ({ setActiveCategory }) => {
     <div className="text-[1rem] lg:text-[1.3rem] bg-slate-600">
       <aside className="list flex justify-between items-center px-4 py-8 w-full h-10">
         <h2 className="text-[1.8em] font-bold">Categorías</h2>
-        <img src="/src/assets/svg/filter.svg" alt="" className="w-5" />
+        <img src={filterIcon} alt="" className="w-5" />
       </aside>
       <ul className="px-4 flex flex-col gap-4">
         {[
