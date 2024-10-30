@@ -2,10 +2,6 @@
 
 ## 🌐 URL
 
-- # URL Base: [https://parcial2-programacion-iii.vercel.app/](https://parcial2-programacion-iii.vercel.app/)
+- URL Base: [https://parcial2-programacion-iii.vercel.app/](https://parcial2-programacion-iii.vercel.app/)
 
-# Segundo Parcial HTML,CSS,JS :
 
-## 🌐 URL
-
-- URL Base: `https://parcial2-programacion-iii.vercel.app/`
